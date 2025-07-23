@@ -12,6 +12,9 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="数据准备与预处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="zE9KLpCBNi_vlF_S_mN6-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zE9KLpCBNi_vlF_S_mN6-1" target="zE9KLpCBNi_vlF_S_mN6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zE9KLpCBNi_vlF_S_mN6-1" value="基于KH法的特征选择" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="150" width="120" height="40" as="geometry" />
         </mxCell>
