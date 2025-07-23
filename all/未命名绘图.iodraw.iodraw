@@ -53,8 +53,8 @@
         </mxCell>
         <mxCell id="zE9KLpCBNi_vlF_S_mN6-22" value="" style="endArrow=none;html=1;rounded=0;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="191" y="330" as="sourcePoint" />
-            <mxPoint x="241" y="280" as="targetPoint" />
+            <mxPoint x="280" y="149.51" as="sourcePoint" />
+            <mxPoint x="330" y="99.50999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
