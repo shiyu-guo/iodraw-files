@@ -16,6 +16,9 @@
         <mxCell id="fB2y__2cTJf-lKiVukhc-4" value="地震数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fB2y__2cTJf-lKiVukhc-5" value="地震属性提取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
