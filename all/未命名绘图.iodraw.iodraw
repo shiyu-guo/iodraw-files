@@ -57,20 +57,11 @@
         <mxCell id="fB2y__2cTJf-lKiVukhc-8" value="地震敏感属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fB2y__2cTJf-lKiVukhc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fB2y__2cTJf-lKiVukhc-9" target="fB2y__2cTJf-lKiVukhc-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="300" y="810" />
-              <mxPoint x="330" y="810" />
-              <mxPoint x="330" y="840" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-9" value="基于费马时间最短原理的优势通道刻画" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-10" value="地震油藏优势通道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="840" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fB2y__2cTJf-lKiVukhc-13">
           <mxGeometry relative="1" as="geometry">
