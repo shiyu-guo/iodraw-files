@@ -31,6 +31,11 @@
         <mxCell id="fB2y__2cTJf-lKiVukhc-9" value="基于费马时间最短原理的优势通道刻画" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="720" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fB2y__2cTJf-lKiVukhc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fB2y__2cTJf-lKiVukhc-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-10" value="地震油藏优势通道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="960" width="120" height="60" as="geometry" />
         </mxCell>
