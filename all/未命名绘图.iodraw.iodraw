@@ -76,7 +76,7 @@
             <mxPoint x="230" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fB2y__2cTJf-lKiVukhc-26" value="地震数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fB2y__2cTJf-lKiVukhc-26" value="数据分析处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
