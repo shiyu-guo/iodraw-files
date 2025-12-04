@@ -34,17 +34,11 @@
         <mxCell id="fB2y__2cTJf-lKiVukhc-10" value="地震油藏优势通道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fB2y__2cTJf-lKiVukhc-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fB2y__2cTJf-lKiVukhc-3" target="fB2y__2cTJf-lKiVukhc-9">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="590" as="sourcePoint" />
-            <mxPoint x="440" y="540" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="100" y="870" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-13" value="测井数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fB2y__2cTJf-lKiVukhc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.628;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fB2y__2cTJf-lKiVukhc-3" target="fB2y__2cTJf-lKiVukhc-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
