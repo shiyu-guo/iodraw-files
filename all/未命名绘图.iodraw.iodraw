@@ -23,7 +23,7 @@
           <mxGeometry x="240" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-7" value="基于机器学习的敏感属性优化或重构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-8" value="地震敏感属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="610" width="120" height="60" as="geometry" />
