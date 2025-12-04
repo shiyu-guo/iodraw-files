@@ -1,10 +1,10 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="kqiYebY5Fi1tDU4ZIDRM">
-    <mxGraphModel dx="1851" dy="2304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fB2y__2cTJf-lKiVukhc-1" value="graph TD&#xa;    %% =======================================================&#xa;    %% 节点定义&#xa;    %% =======================================================&#xa;&#xa;&#xa;    subgraph A[I. 井间连通性分析 (基于生产数据)]&#xa;        A1[原始数据输入]:::raw_input --&gt; A2;&#xa;        A2[生产数据: 注采量、含水率、时间序列]:::process --&gt; A3{多元线性回归模型 (MLR)};&#xa;        A3 --&gt; A4[井间连通性系数 (Cij) 计算]:::process;&#xa;        A4 --&gt; A5[连通性矩阵构建]:::process;&#xa;        A5 --&gt; A6[动态连通性输出 (Cij)]:::output;&#xa;    end&#xa;&#xa;&#xa;    subgraph B[II. 地震敏感属性筛选与重构 (地球物理)]&#xa;        B1[地震数据输入]:::raw_input --&gt; B2;&#xa;        B2[多种地震属性: 阻抗、RMS、曲率、相干等]:::process_geo --&gt; B3{敏感性分析/相关性计算};&#xa;        B3 -- &quot;与 A6 动态连通性关联&quot; --&gt; B4{判断: 属性敏感度是否足够高?}:::decision;&#xa;        B4 -- &quot;否 (R² &lt; 阈值)&quot; --&gt; B5[地震属性优化/重构 (如多属性融合、频率分解)];&#xa;        B5 --&gt; B3;&#xa;        B4 -- &quot;是 (R² ≥ 阈值)&quot; --&gt; B6[筛选后的敏感属性]:::output;&#xa;        B6 --&gt; B7[静态优势通道权重图]:::output;&#xa;    end&#xa;&#xa;&#xa;    subgraph C[III. 地震优势通道刻画 (费马原理/算法)]&#xa;        C1[敏感属性权重图 (来自 B7)]:::output --&gt; C2{最短路径算法 (基于费马时间最短原理)}:::process;&#xa;        C2 -- &quot;求解 Top-K 最短路径 (K=10)&quot; --&gt; C3[优势渗流通道网格路径 (P1...PK)]:::output;&#xa;        C3 --&gt; C4[多通道可视化与分析]:::process;&#xa;        C4 --&gt; C5[优势通道刻画成果]:::output;&#xa;    end&#xa;    &#xa;    C5 --&gt; D[油藏开发方案优化与EOR决策]:::final_decision;&#xa;    A6 -. 提供流动约束 .-&gt; B3;&#xa;    B7 --&gt; C1;&#xa;&#xa;&#xa;    %% =======================================================&#xa;    %% 样式定义 (Style Definitions) - 使用 classDef&#xa;    %% =======================================================&#xa;&#xa;&#xa;    %% 流程图颜色&#xa;    classDef oil_eng fill:#E6F0FF,stroke:#0066CC,stroke-width:2px;&#xa;    classDef geo_sci fill:#FFF0E6,stroke:#CC6600,stroke-width:2px;&#xa;    classDef algorithm fill:#E6FFF0,stroke:#00CC66,stroke-width:2px;&#xa;&#xa;&#xa;    %% 节点颜色&#xa;    classDef raw_input fill:#F7F7F7,stroke:#AAAAAA;&#xa;    classDef process fill:#DDEEFF,stroke:#6699FF;&#xa;    classDef process_geo fill:#FFEACC,stroke:#FF9933;&#xa;    classDef output fill:#CCFFCC,stroke:#00AA00;&#xa;    classDef decision fill:#FFFF99,stroke:#CC9900;&#xa;    classDef final_decision fill:#F0F8FF,stroke:#0000FF,stroke-width:2px;&#xa;&#xa;&#xa;    %% 应用子图样式&#xa;    class A oil_eng;&#xa;    class B geo_sci;&#xa;    class C algorithm;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fB2y__2cTJf-lKiVukhc-1" value="生产数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-2" value="多元线性回归模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -12,6 +12,9 @@
         </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-3" value="井间连通性系数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fB2y__2cTJf-lKiVukhc-4" value="生产数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
