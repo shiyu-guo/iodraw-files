@@ -22,8 +22,8 @@
         <mxCell id="fB2y__2cTJf-lKiVukhc-6" value="基于大数据技术的敏感属性筛选" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fB2y__2cTJf-lKiVukhc-7" value="基于大数据技术的敏感属性筛选" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="490" width="120" height="60" as="geometry" />
+        <mxCell id="fB2y__2cTJf-lKiVukhc-7" value="基于机器学习的敏感属性优化或重构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
