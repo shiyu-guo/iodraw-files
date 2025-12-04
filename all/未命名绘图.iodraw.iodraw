@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-2" value="多元线性回归模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-3" value="井间连通性分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="120" height="60" as="geometry" />
@@ -56,6 +56,9 @@
         </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-8" value="地震敏感属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fB2y__2cTJf-lKiVukhc-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fB2y__2cTJf-lKiVukhc-9" target="fB2y__2cTJf-lKiVukhc-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fB2y__2cTJf-lKiVukhc-9" value="基于费马时间最短原理的优势通道刻画" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="720" width="120" height="60" as="geometry" />
